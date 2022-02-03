@@ -1,5 +1,11 @@
 package com.cc.java;
 
-public class child {
+public class Child extends Parent{
+  
+    public void sayHello() {
+       System.out.println("Hello from Child!");
+    }
     
+
+
 }
