@@ -6,7 +6,4 @@ public class GrandParent {
         System.out.println("Hello from GrandParent!");
      }
 
-
-
-
 }
