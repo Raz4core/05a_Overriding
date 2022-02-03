@@ -6,11 +6,16 @@ public class App {
 
         Child child = new child();
   
+        Child child = new Child();
+        child.sayHello();
+        output(child.sayHello("Parent"));
+      
+        
 
     }
 
     private static void output(String outputStr) {
-        System.out.println(output);
+        System.out.println(outputStr);
     }
     
 }
